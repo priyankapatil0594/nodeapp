@@ -24,15 +24,15 @@ The core idea in the messaging model in RabbitMQ is that the producer never send
 
  
 
-\#### **Install Node.js**
+#### **Install Node.js**
 
  
 
-\```execute
+```execute
 
 sudo yum install nodejs 
 
-\```
+```
 
  
 
@@ -42,17 +42,17 @@ Start execution by login.
 
  
 
-\```execute
+```execute
 
 oc login -u admin -p Passw0rd
 
-\```
+```
 
 Let's create a new project.
 
  
 
-\```execute
+```execute
 
 
 
@@ -60,17 +60,17 @@ oc new-project nodejs-project
 
 oc project nodejs-project
 
-\```
+```
 
 create the nodejs application.
 
  
 
-\```execute
+```execute
 
 oc new-app nodejs-app
 
-\```
+```
 
  
 
